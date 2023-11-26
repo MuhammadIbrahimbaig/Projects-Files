@@ -1,0 +1,190 @@
+/* .carousel-item img size */
+.europe{
+    padding: 20px;
+
+}
+/* .container-fluid{
+    width:5px;
+    height:10px; 
+    
+} */
+
+
+ 
+    
+
+.ibrahim{
+    width: auto;
+   margin: auto;
+    height: auto;
+}
+/* card sacle */
+.card:hover{
+    transform: scale(1.06);
+    transition: all 0.7s;
+   box-shadow: 2px  2px 7px 7px rgb(198, 80, 80)
+ 
+}
+
+ /* card styling */
+ .cardbtn{
+    transition: all 0.6s;
+width: 50%;
+position: relative;
+left: 25%;
+bottom: auto;
+border: none;
+background-color: rgb(96, 27, 161);
+border-radius: 5px;
+
+}
+.cardbtn a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.cardbtn:hover{
+ background-color:rgb(126, 74, 175);
+ box-shadow: 5px 5px 15px rgb(96, 27, 161) ;
+
+ }
+
+ 
+h2{
+    text-align: center;
+   
+}
+.xubi{
+    text-decoration: none;
+    color: rgb(186, 80, 184);
+}
+/* foter set */
+.ibo{
+    color: rgb(155, 155, 155);
+}
+/* paragraph font setting */
+.styling{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 20px;
+    
+
+}
+  
+.decoration{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+ 
+}
+/* oder button contact */
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+    
+      .contact-form {
+/* max-width: 400px; */
+height: 50%;
+margin: 0 auto;
+padding: 20px;
+background-color: #ffffff;
+
+border-radius: 5px;
+box-shadow: 0px 0px 20px rgba(193, 41, 41, 0.2);
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 19px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;}
+
+
+
+.ibi{
+    color: #d36ae1;
+}
+.iffy{
+    width: 2%;
+}
+/*  about us CSS */
+.it{
+    
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.british{
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+   
+}
+/* nav font setting */
+.nav-item{
+    font-weight: bolder;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* video setting */
+.video1{
+    width:100%;
+}
+/* login button */
+.login1{
+   font-weight: bolder;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+/* modal setting */
+.modalset{
+    padding: 16px;
+  
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+
+    .btn:hover{
+        /* background-color:#eb4f3a; */
+        
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* contact_us_styling */
+.contact_us_heading{
+    font-weight: bold;
+    font-size: 55px;
+    
+}
+.it{
+     font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* footer setting */
+.foot1{
+    color: white;
+}
+.bg{
+    color: #000000;
+}
+/* json setting */
+#row{
+    margin-left: 40px;
+}
+/* modal title */
+.modal-title{
+    color:#000000;
+}

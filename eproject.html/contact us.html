@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts us</title>
+    <link rel="stylesheet" href="project.css  ">
+     <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="project.css">
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- link font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</script>
+</head>
+<body>
+
+          <!--nav bar-->
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/download.jfif" alt="" width="155px" height="65px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">Contact us</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="feedback.html">Feedback Form</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">testimonial</a>
+                  </li>
+                   <!--drop down-->
+                   <div class="dropdown">
+                    <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     <b> DropDown </b>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1 ">
+                      <li><a class="dropdown-item" href="#">Products</a></li>
+                      <li><a class="dropdown-item" href="#">help</a></li>
+                     
+                    </ul>
+                  </div>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+        
+                <!--Login tab-->
+                <div class="modalset">
+                <button type="button" class="btn btn-outline-danger mx-3" id="btn" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"><b>Login</b></button>
+                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="staticBackdropLabel">ミ★ 𝘚𝘪𝘨𝘯 𝘪𝘯 ★彡</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="col-4 bg-dark" style="width: 100%; height: 100%;">
+                    <div class="login-dark p-5 shadow-lg rounded">
+                      <div class="pt-0">
+                        <h4 class="text-white ">Login</h4>
+                      </div>
+        
+                      <form class="mt-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control form-control-sm bg-light " placeholder="Email Id " id="email"
+                            required />
+                        </div>
+        
+                        <div class="form-group d-flex">
+                          <input type="password" class="form-control form-control-sm bg-light mt-3" placeholder="Password"
+                            id="pass" required />
+                          <button class="button mt-3" onclick="switchVisibility()" style="border-radius: 10px;"> <i
+                              class="fa-regular fa-eye-slash"></i> </button>
+        
+                        </div>
+        
+                        <div class="form-group form-check mt-3">
+                          <input type="checkbox" class="form-check-input" id="rememberCheckBox">
+                          <label class="form-check-label text-light" for="rememberCheckBox">Remember me?</label>
+                        </div>
+        
+                        <div class="mt-3">
+                          <button class="btn btn-outline-light col" style="left: 50%;" onclick="myfunction()">
+                            Login
+                          </button>
+                        </div>
+        
+                        <div class="text-center mt-3">
+                          <a href="#" class="text-light">Forgot Password?</a>
+                        </div>
+        
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>   </div>      
+  <!-- END -->
+          </nav>
+         
+
+<!-- contact_us -->
+    <div class="container mt-5 ">
+        <div class="row gx-5 gy-5">
+            <div class="col-md-6 col-xxl-6 col-lg-6 col-12 ">
+                <h1 class="mt-5 contact_us_heading text-danger">Contact <span class="text-dark">us</span></h1>
+                <p class="lh-3 contact_us_paragraph">Contact Us is the primary means of communication with staff for a website visitor. Questions, comments and suggestions voluntarily submitted to the CAMPO website through electronic mail may be treated as non Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae molestias adipisci impedit cum exercitationem. Incidunt. .</p>
+                <p class="lh-3 contact_us_paragraph"><b>Address:</b> Aptech North Nazimabad Center
+                  Address: SD1, Block A, Near Metric Board Office, North Nazimabad, Karachi.
+                  info-nn@aptech-education.com.pk
+                  </p>
+                  <p class="lh-3 contact_us_paragraph"><b>contact:</b> 021-36630102-3</p>
+                  
+            </div>
+            <!-- form layout -->
+            <div class="col-md-6 col-xxl-6 col-lg-6 col-12 ">
+                
+                  <form id="contactus">
+                  <label ><b>First name</b></label> 
+                      <input type="text" name="username" class="form-control " placeholder="First name" aria-label="First name ">
+                      <br>
+                    <label ><b>Last name</b></label>
+                      <input type="text" name="lastname" class="form-control" placeholder="Last name" aria-label="Last name">
+                      <br>
+                    <label><b>Email</b></label>
+                    <input type="email" name="email" class="form-control " placeholder="Email Address" aria-label="email">
+                    <br>
+                    <label><b>password</b></label>
+                    <input type="password"  name="password" class="form-control " placeholder="Enter password" aria-label="password">
+                    <br>
+                  
+                  <button  type="submit" class="btn btn-outline-danger
+                   w-25  mt-2" id="submitbtn" data-bs-toggle="tooltip" data-bs-placement="top" title="submit">Submit</button>
+            
+        </div>
+        </div>
+    </div>
+<br>
+<br>
+
+<!-- Generate the footer part -->
+    <!--Footer part-->
+    <center>
+      <footer class="footer ft ">
+        <div class="foot1" >
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 ">
+              <h4 class="bg">About</h4>
+              <ul class="list-unstyled">
+                <li><a class="ibo xubi" href="#">Company</a></li>
+                <li><a class="ibo xubi "href="#">History</a></li>
+                <li><a class="ibo xubi"href="#">Careers</a></li>
+                <li><a class="ibo xubi"href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h4 class="bg">Accesories</h4>
+              <ul class="list-unstyled">
+                <li><a class="ibo xubi "href="#">Laptops</a></li>
+                <li><a class="ibo xubi "href="#">Headphones</a></li>
+                <li><a class="ibo xubi " href="#">Watches</a></li>
+                <li><a class="ibo xubi "href="#">Airbods</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h4 class="bg">Services</h4>
+              <ul class="list-unstyled">
+                <li><a class="ibo xubi "href="#">Service Centers</a></li>
+                <li><a class="ibo xubi " href="#">Helps</a></li>
+                <li><a class="ibo xubi " href="#">Owners</a></li>
+                <li><a class="ibo xubi " href="#">Warranty</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h4 class="bg">Follow Us</h4>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="ibo" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a class="ibo" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a class="ibo" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="ibo" href="#"><i class="fab fa-youtube"></i></a></li>
+               
+               
+  
+              </ul>
+            </div>
+          </div>
+          <hr>
+          
+          <div class="row">
+            <div class="col-md-6">
+              <p class="text-muted">© 2023 Liberty Electronics®. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </center>
+  
+  
+   
+  
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="javascript/main.js"></script>
+    
+</body>
+</html>
