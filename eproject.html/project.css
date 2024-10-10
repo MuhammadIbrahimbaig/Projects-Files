@@ -188,3 +188,6 @@ border-radius: 3px;}
 .modal-title{
     color:#000000;
 }
+.btn{
+    list-style: none;
+}
